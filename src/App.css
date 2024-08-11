@@ -6,9 +6,9 @@ main{
   align-items: center;
   justify-content: center;
   background-image: url(./assets/images/bg-pattern-top.svg), url(./assets/images/bg-pattern-bottom.svg);
-  background-position: top left,  bottom right;
+  background-position: -70% 280%, 150% -200%;
   background-repeat: no-repeat, no-repeat;
-  background-size: 45%, 45%;
+  background-size: 70%, 70%;
   background-color:  hsl(185, 75%, 39%);
   
 }
