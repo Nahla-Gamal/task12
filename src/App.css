@@ -6,9 +6,17 @@ main{
   align-items: center;
   justify-content: center;
   background-image: url(./assets/images/bg-pattern-top.svg), url(./assets/images/bg-pattern-bottom.svg);
-  background-position: -50% 280%, 150% -200%;
+  background-position: -50% 395%, 150% -280%;
   background-repeat: no-repeat, no-repeat;
   background-size: 70%, 70%;
   background-color:  hsl(185, 75%, 39%);
   
+}
+
+@media only screen and (max-width: 400px) {
+  main {
+background-position: -50% -25%, 208% 120%;
+background-size: 70%, 70%;
+
+  }
 }
