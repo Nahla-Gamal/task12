@@ -1,14 +1,18 @@
+import "./App.css";
+import Profilecard from "./components/Profilecard";
+import topCircle from "./assets/images/bg-pattern-top.svg";
+import bottomCircle from "./assets/images/bg-pattern-bottom.svg";
 
-import './App.css'
-import Profilecard from './components/Profilecard'
 function App() {
-
-
   return (
     <main>
-    <Profilecard></Profilecard>
+      <div className="background">
+        <img class='top' src={topCircle} />
+        <img class='bottom' src={bottomCircle} />
+      </div>
+      <Profilecard />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
